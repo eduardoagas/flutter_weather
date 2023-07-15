@@ -1,6 +1,7 @@
-name: open_meteo_api
+name: weather_repository
 description: A new Flutter package project.
 version: 0.0.1
+publish_to: none
 homepage:
 
 environment:
@@ -11,7 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^0.13.0
+  equatable: ^2.0.5
   json_annotation: ^4.8.1
+  open_meteo_api:
+    path: ../open_meteo_api
 
 dev_dependencies:
   flutter_test:
